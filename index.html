@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Minha Página Linda</title>
+    <style>
+      /* Estilos para o corpo da página */
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Estilos para o cabeçalho */
+      header {
+        background-color: #003366;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      /* Estilos para o título da página */
+      h1 {
+        font-size: 48px;
+        margin: 0;
+      }
+      
+      /* Estilos para o subtítulo da página */
+      h2 {
+        font-size: 24px;
+        margin: 0;
+      }
+      
+      /* Estilos para a seção principal */
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px;
+      }
+      
+      /* Estilos para os cartões na seção principal */
+      .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin: 20px;
+        overflow: hidden;
+        position: relative;
+        transition: box-shadow 0.3s ease;
+        width: 400px;
+      }
+      
+      /* Estilos para a imagem no cartão */
+      .card img {
+        max-width: 100%;
+        vertical-align: middle;
+      }
+      
+      /* Estilos para o título do cartão */
+      .card h3 {
+        font-size: 24px;
+        margin: 20px;
+        text-align: center;
+      }
+      
+      /* Estilos para o botão no cartão */
+      .card button {
+        background-color: #003366;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 10px 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transition: background-color 0.3s ease;
+      }
+      
+      /* Estilos para o botão no cartão ao passar o mouse */
+      .card button:hover {
+        background-color: #002049;
+      }
+      
+      /* Estilos para o rodapé */
+      footer {
+        background-color: #003366;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Minha Página Linda</h1>
+      <h2>Uma página bonita feita com HTML e CSS</h2>
+    </header>
+    
+    <div class="main">
+      <div class="card">
+        <img src="https://picsum.photos/400/300" alt="Imagem 1">
+        <h3>Card 1</h3>
+        <button>Botão 1</button>
+      </div>
+      <div class="card">
+    <img src="https://picsum.photos/400/300" alt="Imagem 3">
+    <h3>Card 3</h3>
+    <button>Botão 3</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2023 Minha Página Linda. Todos os direitos reservados.</p>
+</footer>
+
